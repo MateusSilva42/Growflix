@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- MEU CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Growflix</title>
+  </head>
+  <body>
+    <!-- header  -->
+    <header>
+        <section id="bg-header" class="container-fluid vh-75 pb-5 header">
+            <article class="row">
+              <div class="col">
+                <div class="container-fluid">
+                  <img
+                    id="logo"
+                    class="img-fluid"
+                    src="./assets/images/logo-growflix.svg"
+                    alt="Logo frowfix"
+                  />
+                </div>
+              </div>
+            </article>
+    
+            <article class="row d-flex justify-content-center align-items-center">
+              <div class="col-8">
+                <div class="container">
+                  <h1 id="title" class="text-light fw-bold text-center">
+                    Growcasts, webinars e muito mais. Sem limites.
+                  </h1>
+                </div>
+              </div>
+            </article>
+            <article
+              class="row d-flex justify-content-center align-items-center mt-3"
+            >
+              <div class="col-8">
+                <div class="container text-center">
+                  <p class="fs-3 text-light">Assista onde quiser</p>
+                  <p class="fs-5 text-light">Pronto para assistir?</p>
+                  <button class="btn btn-danger fw-bold fs-4 p-3"> <a href="./home.html" class="text-decoration-none text-light">Vamos lá!</a></button>
+                </div>
+              </div>
+            </article>
+          </section>
+      </header>
+
+      <!-- Conteudo principal -->
+    <main class="bg-black">
+      
+      <!-- Aproveite na tv -->
+      <section class="container bg-black divider">
+        <article class="row pt-5 pb-5">
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center"
+          >
+            <div
+              class="container text-light d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="row w-100">
+                <div class="container">
+                  <p class="fw-bold text-start subtitle">Aproveite na TV.</p>
+                </div>
+              </div>
+              <div class="row w-100">
+                <div class="container">
+                  <p class="fs-4">
+                    Assista em Smart Tvs, <br />
+                    Playstation, Xbox, Chromecast <br />
+                    e outros dispositivos
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <img src="./assets/images/tela-tv-dia-dev.png" alt="Tela de tv" />
+          </div>
+        </article>
+      </section>
+
+      <!-- Assista quando quiser -->
+      <section class="container bg-black divider">
+        <article class="row pt-5 pb-5">
+          <div class="col d-flex justify-content-center">
+            <img src="./assets/images/devices.png" alt="Tela de tv" />
+          </div>
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center"
+          >
+            <div
+              class="container text-light d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="row w-100">
+                <div class="container">
+                  <p class="fw-bold text-start subtitle">
+                    Assista quando quiser.
+                  </p>
+                </div>
+              </div>
+              <div class="row w-100">
+                <div class="container">
+                  <p class="fs-4">
+                    Assista no celular, tablet, Smart TV ou <br />
+                    notebook sem pagar a mais por isso <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- Perguntas frequentes -->
+      <section class="container bg-black divider">
+        <article class="row pt-5 pb-5">
+          <div
+            class="col d-flex flex-column justify-content-center align-items-center"
+          >
+            <div
+              class="container text-light d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="row w-100">
+                <div class="container">
+                  <p class="fw-bold text-start subtitle text-center">
+                    Perguntas Frequentes
+                  </p>
+                </div>
+              </div>
+              <div class="row w-75">
+                <div class="container d-flex justify-content-center">
+                  <div
+                    class="accordion accordion-flush w-100"
+                    id="accordionFlushExample"
+                  >
+                    <div class="accordion-item mb-2 border-0">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed bg-dark text-light fs-3"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faq-one"
+                          aria-expanded="false"
+                          aria-controls="faq-one"
+                        >
+                          O que é a Growflix?
+                        </button>
+                      </h2>
+                      <div
+                        id="faq-one"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                            <p>
+                                Uma plataforma totalmente inovadora e nunca vista antes, com vídeos, aulas, webinar e muito conteúdo para programadores.
+                                Aqui você poderá se atualizar sobre as novas técnologias, ouvir profissionais da área conversando sobre a profissão e seus desafios, e claro,
+                                compartilhando muito conhecimento.
+                            </p>
+                         
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border-0">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed bg-dark text-light fs-3"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq-two"
+                            aria-expanded="false"
+                            aria-controls="faq-two"
+                          >
+                            Quanto custa a Growflix?
+                          </button>
+                        </h2>
+                        <div
+                          id="faq-two"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                                Nada. Nothing. Absolutamente grátis. Necas de Pitibiribas. Na faixa. Gra-tui-to. Dado. Livre. Sem custo.
+                                Isento de pagamento. Um cheque sem fundo. Dinheirinho do Banco Imobiliário. Um aperto de mão.
+                                O Gerente ficou maluco. бесплатно. 100% de desconto.
+                            </p>
+                            
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item mb-2 border-0">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed bg-dark text-light fs-3"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq-three"
+                            aria-expanded="false"
+                            aria-controls="faq-three"
+                          >
+                            Onde posso assistir?
+                          </button>
+                        </h2>
+                        <div
+                          id="faq-three"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                                Pode assistir em seu computador, televisão, tablet, smartphone, smart TV, smartWhatch, smartFridge, smartCoffeMaker, smartToaster.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item mb-2 border-0">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed bg-dark text-light fs-3"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq-four"
+                            aria-expanded="false"
+                            aria-controls="faq-four"
+                          >
+                            O que eu posso assistir na Growflix?
+                          </button>
+                        </h2>
+                        <div
+                          id="faq-four"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                           <p>
+                            Aqui na Growflix você poderá assistir ao conteúdo mais completo sobre a área de desenvolvimento. Podcasts, Webinars, aulas e muito mais.
+                            Sempre com conteúdos atualizados, trazemos os profissionais mais completos da área para popular nossa plataforma apenas com o conteúdo mais relevante.
+                           </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item mb-2 border-0">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed bg-dark text-light fs-3"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq-five"
+                            aria-expanded="false"
+                            aria-controls="faq-five"
+                          >
+                            A Growflix é adequada para crianças?
+                          </button>
+                        </h2>
+                        <div
+                          id="faq-five"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                                Com certeza! A vida das crianças é muito fácil, elas precisam saber que a vida não é um mar de rosas. Quanto antes elas tiverem contato
+                                com programação, mais rápido vão descobrir que a vida não é aquela papinha de maçã com canela que comem no café da manhã. 
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+        
+                  </div>
+                </div>
+              </div>
+              <div class="row d-flex flex-column align-items-center mt-5">
+                <div class="col text-center">
+                    <p class="fs-5 text-light">Pronto para assistir?</p>
+                    <button class="btn btn-danger fw-bold fs-4 p-3"><a href="./home.html" class="text-decoration-none text-light">Vamos lá!</a></button>
+                </div>
+                <div class="col"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <section class="container bg-black">
+            <div class="row">
+                <div class="col my-5">
+                    <p>Dúvidas? Ligue 0800 4002 8922</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Perguntas frequentes</p>
+                    <p>Relações com investidores</p>
+                    <p>Formas de assistir</p>
+                    <p>Informações corporativas</p>
+                    <p>Só na Growflix</p>
+                </div>
+                <div class="col">
+                    <p>Central de Ajuda</p>
+                    <p>Carreiras</p>
+                    <p>Termos de Uso</p>
+                    <p>Entre em contato</p>
+                </div>
+                <div class="col">
+                    <p>Conta</p>
+                    <p>Resgatar cartão pré-pago</p>
+                    <p>Privacidade</p>
+                    <p>Teste de velocidade</p>
+                </div>
+                <div class="col">
+                    <p>Media Center</p>
+                    <p>Comprar cartão pré-pago</p>
+                    <p>Preferências de cookies</p>
+                    <p>Avisos legais</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col my-5">
+                    <p>Growflix Growdev</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

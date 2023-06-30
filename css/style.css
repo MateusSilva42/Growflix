@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+
+h2{
+    margin-left: 0;
+}
+
+.header{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg-header{
+    background-image: url(../assets/images/banner-initial.png);
+    background-attachment: fixed;
+    background-color: black;
+}
+
+#home-header{
+    background-image: url(../assets/images/growcast-01.png);
+    background-position:center;
+    min-height: 720px;
+}
+
+#logo{
+    width: 124px;
+    margin: 16px;
+}
+
+#title{
+    font-size: 5rem;
+    margin-top: 10%;
+}
+
+.btn-danger{
+    background-color: red
+}
+
+.subtitle {
+    font-size: 3rem;
+}
+
+.divider{
+    border-bottom: 3px solid #6a82ac ;
+}
+
+footer{
+    background-color: black;
+    color: grey;
+    font-size: small;
+}
+
+.accordion-button::after {
+    background-image: url("../assets/images/add.svg") !important;
+}
+
+.home-title{
+    min-height: 565px;
+    max-height: 700px;
+    align-items: flex-end;
+}
+
+.nav-link{
+    color: gray;
+}
+
+.nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+}
+
+.logo-nav{
+    height: 28px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
